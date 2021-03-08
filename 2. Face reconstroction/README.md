@@ -66,10 +66,15 @@
 6. Установить PyTorch3d
 
 `import sys`
+
 `import torch`
+
 `version_str="".join([
     f"py3{sys.version_info.minor}_cu",
     torch.version.cuda.replace(".",""),
     f"_pyt{torch.__version__[0:5:2]}"
 ])`
+
 `!pip install pytorch3d -f https://dl.fbaipublicfiles.com/pytorch3d/packaging/wheels/{version_str}/download.html`
+
+7. Запустить остальные ячейки кода, меняя путь на свою директорию. Либо, чтобы не менять пути, создайте папку 'test_2' на диске и работайте в нем. Фотографию лица, на котором выполнен проект, можно скачать [здесь](https://drive.google.com/file/d/1BUmIjjc8O_nVPgWPwG-w3sdmhgu4Hv2p/view?usp=sharing). Путь к ней должен быть таким: root/TestSamples/examples/2.png
