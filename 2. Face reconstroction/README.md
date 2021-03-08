@@ -1,1 +1,19 @@
+# Задание 2. Реконструкция лица и эмоций
 
+Проект выполнен с использованием модели [DECA](https://github.com/YadiraF/DECA.git). Фотография лица была получена с помощью TL-GAN
+
+![в](https://user-images.githubusercontent.com/67918036/110302313-285ace00-800a-11eb-92a8-8468537d76ab.jpg)
+
+Сначала я создала меш лица и эмоций в формате .obj. Затем отрендерила их с помощью PyTorch3d
+
+Отрендеренный меш лица 
+
+![загружено (3)](https://user-images.githubusercontent.com/67918036/110302709-97382700-800a-11eb-90f9-3ed5c3d61786.png)
+
+Лицо в повороте 
+
+![загружено (2)](https://user-images.githubusercontent.com/67918036/110302787-ad45e780-800a-11eb-8aa3-8ca4de44901a.png)
+
+Лицо с выражением эмоций
+
+![загружено (4)](https://user-images.githubusercontent.com/67918036/110302861-c64e9880-800a-11eb-9383-c738f1640f33.png)
