@@ -24,6 +24,11 @@
   
  ![file (1)](https://user-images.githubusercontent.com/67918036/110303693-bbe0ce80-800b-11eb-9801-78b85478c9a2.png)
 
+## Requirements
+- Python 3.7 (numpy, skimage, scipy, opencv)
+- PyTorch >= 1.6 (pytorch3d)
+- face-alignment
+
 ## Инструкция по запуску проекта в Google Colab
 
 1. Поключиться к Google диску
@@ -41,7 +46,7 @@
 3. Загрузить следующие файлы:
  1. [Flame model](https://flame.is.tue.mpg.de/downloads), выбрать Flame 2020, разархивировать и файл 'generic_model.pkl' поместить в root/data
  2. [DECA trained model](https://drive.google.com/file/d/1rp8kdyLPvErw2dTmqtjISRVvQLj6Yzje/view). Не распаковывать файл и поместить его в root/data
- 3. Следовать инструкции в [Albedo mode](https://github.com/TimoBolkart/BFM_to_FLAME.git). Полученный файл 'FLAME_albedo_from_BFM.npz' поместить в root/data
+ 3. Следовать инструкции в [Albedo model](https://github.com/TimoBolkart/BFM_to_FLAME.git). Полученный файл 'FLAME_albedo_from_BFM.npz' поместить в root/data
 
 4. Создать виртуальную среду
 
@@ -78,3 +83,6 @@
 `!pip install pytorch3d -f https://dl.fbaipublicfiles.com/pytorch3d/packaging/wheels/{version_str}/download.html`
 
 7. Запустить остальные ячейки кода, меняя путь на свою директорию. Либо, чтобы не менять пути, создайте папку 'test_2' на диске и работайте в нем. Фотографию лица, на котором выполнен проект, можно скачать [здесь](https://drive.google.com/file/d/1BUmIjjc8O_nVPgWPwG-w3sdmhgu4Hv2p/view?usp=sharing). Путь к ней должен быть таким: root/TestSamples/examples/2.png
+
+## Лицензия DECA
+[LICENSE](https://github.com/YadiraF/DECA/blob/master/LICENSE).
