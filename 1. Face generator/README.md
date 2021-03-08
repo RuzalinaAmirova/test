@@ -27,7 +27,7 @@
  
  `!git clone https://github.com/SummitKwan/transparent_latent_gan.git `
  
- 3. Скачать файлы из https://www.dropbox.com/sh/y1ryg8iq1erfcsr/AAB--PO5qAapwp8ILcgxE2I6a?dl=0 . Скаченные папки 'asset_model' и 'asset_result' поместить в дерикторию 
+ 3. Скачать [предобученную модель PG-GAN](https://www.dropbox.com/sh/y1ryg8iq1erfcsr/AAB--PO5qAapwp8ILcgxE2I6a?dl=0) . Скаченные папки 'asset_model' и 'asset_result' поместить в дерикторию 
   
  4. Установить библиотеки
  
