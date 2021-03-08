@@ -1,12 +1,27 @@
+Проекты запускались в Google Colab
+
 # Задание 1. Генерация лиц.
 
-Генерация лиц с настраиваемыми параметрами была сделана с помощью модели TL-GAN https://github.com/SummitKwan/transparent_latent_gan.git
+Проект выполнен с применением TL-GAN, которая позволяет менять параметры сгенерированного лица в интерактивном окне с элементами управления. 
 
-Ноутбук запускала в Google Colab, предварительно загрузив все файлы c репозитория командой `<!git clone https://github.com/SummitKwan/transparent_latent_gan.git /root>`
+![Снимок](https://user-images.githubusercontent.com/67918036/110290875-52a58f00-7ffc-11eb-8107-133e358b9003.PNG)
 
-В директорию с проектом нужно загрузить папки 'asset_model', 'asset_results' из https://www.dropbox.com/sh/y1ryg8iq1erfcsr/AAB--PO5qAapwp8ILcgxE2I6a?dl=0
+![Uploading Снимок 2.PN![Снимок](https://user-images.githubusercontent.com/67918036/110290827-47eafa00-7ffc-11eb-92d2-ceda8475ef4d.PNG)
+G…]()
 
+Признаки, которые не должны меняться, нужно заблокировать, чтобы изненение одного признака не приводило к ищненению другого. Например, длина волос коррелирует с гендером: чем длиннее волосы, тем женственнее лицо. И, чтобы получить мужское лицо с длинными волосами, нужно заблокировать признак 'Male' и наоборот.
 
-Т.к. проект написан на tensorflow 1 версии, в Google Colab нужно работь на ней же, чтобы успешно загрузить модель GAN `<%tensorflow_version 1.x>`
+## Инструкция по запуску в Google Colab
 
-После выполнения кода должно появиться окно с элементами управления, где можно настраивать параметры лица.  Чтобы не было корреляции признаков, нужно заблокировать ненужные параметры.
+ 1. Поключиться к Google диску 
+ `<from google.colab import drive
+ drive.mount('/content/drive')>`
+ 2. Клонировать репозиторий https://github.com/SummitKwan/transparent_latent_gan.git в директорию 
+ `<%cd /content/drive/MyDrive/root
+ !git clone https://github.com/SummitKwan/transparent_latent_gan.git >`
+ 3. Установить библиотеки
+ `<!pip install -r requirements.txt>`
+ 4. Перейти на первую версию tensorflow (TL-GAN работает на первой версии, а в Google Colab по умолчанию вторая)
+ `<%tensorflow_version 1.x>`
+ 5. Запустить остальные ячейки с кодом в ноутбуке
+
