@@ -15,7 +15,7 @@
 
 ## Инструкция по запуску в Google Colab
 
- 1. Поключиться к Google диску 
+ 1.  Поключиться к Google диску 
  
  `from google.colab import drive`
  
@@ -27,13 +27,15 @@
  
  `!git clone https://github.com/SummitKwan/transparent_latent_gan.git `
  
- 3. Установить библиотеки
+ 3. Скачать файлы из https://www.dropbox.com/sh/y1ryg8iq1erfcsr/AAB--PO5qAapwp8ILcgxE2I6a?dl=0 . Скаченные папки 'asset_model' и 'asset_result' поместить в дерикторию 
+  
+ 4. Установить библиотеки
  
  `!pip install -r requirements.txt`
  
- 4. Перейти на первую версию tensorflow (TL-GAN работает на первой версии, а в Google Colab по умолчанию вторая)
+ 5. Перейти на первую версию tensorflow (TL-GAN работает на первой версии, а в Google Colab по умолчанию вторая)
  
  `%tensorflow_version 1.x`
  
- 5. Запустить остальные ячейки с кодом в ноутбуке
+ 6. Запустить остальные ячейки с кодом в ноутбуке
 
