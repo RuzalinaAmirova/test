@@ -1,1 +1,4 @@
-# test
+| Название проекта      | README             |Jupyter notebook|
+| :-------------------- | :-------------------- | :-------------------- |
+|[1. Face generator](https://github.com/RuzalinaAmirova/test/tree/main/1.%20Face%20generator)|[README.MD](https://github.com/RuzalinaAmirova/test/blob/main/1.%20Face%20generator/README.md)|[Jupyter notebook](https://github.com/RuzalinaAmirova/test/blob/main/1.%20Face%20generator/1_generet_face.ipynb)|
+|[2. Face reconstroction](https://github.com/RuzalinaAmirova/test/tree/main/2.%20Face%20reconstroction)|[README.MD](https://github.com/RuzalinaAmirova/test/blob/91ccb0f87b68d5fb1efd29a0052ef6f7d16e1e12/2.%20Face%20reconstroction/README.md)|[Jupyter notebook](https://github.com/RuzalinaAmirova/test/blob/91ccb0f87b68d5fb1efd29a0052ef6f7d16e1e12/2.%20Face%20reconstroction/2_face_reconstraction.ipynb)|
