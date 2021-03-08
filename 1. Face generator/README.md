@@ -39,3 +39,5 @@
  
  6. Запустить остальные ячейки с кодом в ноутбуке
 
+## Лицензия TL-GAN
+[LICENSE](https://github.com/SummitKwan/transparent_latent_gan/blob/master/LICENSE)
