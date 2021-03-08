@@ -17,13 +17,13 @@
 
  1. Поключиться к Google диску 
  
- `from google.colab import drive
- drive.mount('/content/drive')`
+ `from google.colab import drive`
+ `drive.mount('/content/drive')`
  
  2. Клонировать репозиторий https://github.com/SummitKwan/transparent_latent_gan.git в директорию 
  
- `%cd /content/drive/MyDrive/root
- !git clone https://github.com/SummitKwan/transparent_latent_gan.git `
+ `%cd /content/drive/MyDrive/root`
+ `!git clone https://github.com/SummitKwan/transparent_latent_gan.git `
  
  3. Установить библиотеки
  
